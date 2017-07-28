@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.test.LandActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:background="#66CDAA">
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:text="用户名"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/user"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:background="#FAF0E6"
+            android:layout_centerInParent="true"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:background="#66CDAA">
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:text="密码"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:background="#FAF0E6"
+            android:layout_centerInParent="true"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        >
+
+        <Button
+            android:id="@+id/bt_register"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:text="注册"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/bt_land"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:text="登陆"
+            android:gravity="center"
+            android:layout_marginLeft="140dp"/>
+    </LinearLayout>
+
+</LinearLayout>
